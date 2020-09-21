@@ -4,8 +4,8 @@ subtitle: Interjers
 layout: default
 modal-id: ''
 date: 2020-09-01 00:00:00 +0300
-img: ilze.jpg
-thumbnail: ''
+img: [ilze.jpg,header-bg.jpg]
+thumbnail: ilze.jpg
 alt: ''
 project-date: ''
 client: ''

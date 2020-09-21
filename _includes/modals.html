@@ -14,7 +14,17 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            <img src="uploads/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            {% include image-gallery.html folder="img" %}
+                            {% for image in post.img %}
+
+                            <!-- <div class="image-gallery">
+                                <a class="lightbox-image" href="img/{{ image }}">
+                                    <img src="img/{{ image }}" alt="{{ post.alt }}">
+                                </a>
+                            </div> -->
+                            
+                            {% endfor %}
+                            
                             <p>{{ post.description }}</p>
 
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Aizvērt</button>
