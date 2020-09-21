@@ -2,7 +2,7 @@
 title: Zobārstniecība
 subtitle: Interjers
 layout: default
-modal-id: ''
+modal-id: '1'
 date: 2020-09-01 00:00:00 +0300
 img: ''
 thumbnail: ''
