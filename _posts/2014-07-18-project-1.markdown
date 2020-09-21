@@ -7,7 +7,7 @@ date: 2014-07-18
 img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
-project-date: April 2014
+project-date: 
 client: Start Bootstrap
 category: []
 description: Biroja plānojums (103.3 m2 )  paredz darbavietas 4 advokātiem, pārrunu
