@@ -4,6 +4,11 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+#idinterior-about-logo {
+    overflow: visible;
+    background-color: white;
+}
+
 #idinterior-logo-holder {
     padding: 0px;
     margin-right: 10px;
@@ -17,10 +22,6 @@
     -webkit-filter: invert(100%);
     filter: invert(100%);
     /* padding-top: 40px; */
-}
-
-#bs-example-navbar-collapse-1 > ul > li:nth-child(1) > a {
-    color: red!important;
 }
 
 body {
