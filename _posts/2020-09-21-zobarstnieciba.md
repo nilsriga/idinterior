@@ -2,9 +2,9 @@
 title: Zobārstniecība
 subtitle: Interjers
 layout: default
-modal-id: '1'
+modal-id: ''
 date: 2020-09-01 00:00:00 +0300
-img: ''
+img: ilze.jpg
 thumbnail: ''
 alt: ''
 project-date: ''
