@@ -4,6 +4,25 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+#idinterior-logo-holder {
+    padding: 0px;
+    margin-right: 10px;
+}
+
+#idinterior-logo {
+    width: 125px;
+    height: 100%;
+    /* margin: -100px;
+    padding: -100px; */
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    /* padding-top: 40px; */
+}
+
+#bs-example-navbar-collapse-1 > ul > li:nth-child(1) > a {
+    color: red!important;
+}
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -177,7 +196,6 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-brand:hover,
@@ -304,7 +322,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 350px;
         padding-bottom: 200px;
     }
 
@@ -343,6 +361,24 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+}
+
+.contact-section-subheading {
+    margin-bottom: 50px;
+    text-transform: none;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+}
+
+/* .contact-section-subheading > i {
+    margin-right: 10px;
+    color: white;
+} */
+h3>i.social-buttons {
+    color:white;
 }
 
 @media(min-width:768px) {
