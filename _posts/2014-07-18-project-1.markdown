@@ -1,6 +1,6 @@
 ---
 title: Advokātu Birojs
-subtitle: Website Design
+subtitle: Interjers
 layout: default
 modal-id: "1"
 date: 2014-07-18
@@ -9,7 +9,7 @@ thumbnail: dreams-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
-category: Web Development
+category: []
 description: Biroja plānojums (103.3 m2 )  paredz darbavietas 4 advokātiem, pārrunu
   / sanāksmju telpu, bibliotēku, kafijas stūrīti, virtuvi / ēdamtelpu, vannasistabu
   un WC.  Zilā un baltā toņa saspēle sienās un mēbelēs, ar košiem akcentiem sēdmēbelēs.
