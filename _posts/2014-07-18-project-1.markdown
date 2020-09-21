@@ -4,11 +4,11 @@ subtitle: Interjers
 layout: default
 modal-id: "1"
 date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+img: 
+thumbnail: 
 alt: image-alt
 project-date: 
-client: Start Bootstrap
+client: 
 category: []
 description: Biroja plānojums (103.3 m2 )  paredz darbavietas 4 advokātiem, pārrunu
   / sanāksmju telpu, bibliotēku, kafijas stūrīti, virtuvi / ēdamtelpu, vannasistabu
