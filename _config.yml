@@ -39,6 +39,3 @@ permalink: pretty
 sass:
   style: compressed
 
-gems:
-  - jekyll-paginate
-  - jekyll-assets
