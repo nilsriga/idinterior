@@ -628,19 +628,19 @@ h3>i.social-buttons {
     }
 
     .timeline>li {
-        margin-bottom: 100px;
+        margin-bottom: 10px;
         min-height: 100px;
     }
 
     .timeline>li .timeline-panel {
         float: right;
-        width: 41%;
-        padding: 0 20px 20px 30px;
+        width: 46%;
+        padding: 0 20px 20px 5px;
         text-align: left;
     }
 
     .timeline > li .timeline-image {
-        left: 20%;
+        left: 16%;
         width: 200px;
     }
 
