@@ -4,6 +4,41 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+
+@media(max-width: 748px) {
+    .timeline > li .timeline-image {
+        position: relative!important;
+        margin: auto!important;
+    }
+}
+
+@media(max-width: 989px) {
+    .nav > li:last-child > a {
+        /* padding-bottom: 0px; */
+        /* padding-top: 0px; */
+        margin-bottom: -19.5px;
+        margin-top: -19.5px;
+    }
+}
+
+.shadowed {
+    text-shadow: 1px 0px 5rem rgb(0, 0, 0), 1px 0px 2rem rgb(0, 0, 0);
+    filter: drop-shadow(0 0 0.75rem rgb(22, 22, 22));
+}
+
+.slightly-shadowed {
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+
+.intro-quote {
+    margin-bottom: 25px;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 22px;
+    /* font-style: italic; */
+    line-height: 22px;
+} 
+
 #idinterior-about-logo {
     overflow: visible;
     background-color: white;
@@ -254,13 +289,14 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(min-width:768px) {
+
     .navbar-default {
         padding: 30vh 0;
         border: 0;
         background-color: transparent;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
-        transition: padding 1s;
+        transition: padding .3s;
         display: block;
         position:fixed;
     }
@@ -308,7 +344,7 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 22px;
-    font-style: italic;
+    /* font-style: italic; */
     line-height: 22px;
 }
 
@@ -331,7 +367,7 @@ header .intro-text .intro-heading {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 40px;
-        font-style: italic;
+        /* font-style: italic; */
         line-height: 40px;
     }
 
@@ -483,7 +519,8 @@ h3>i.social-buttons {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 40px;
+    /* left: 40px; */
+    padding: 0.1rem;
     width: 2px;
     margin-left: -1.5px;
     background-color: #f1f1f1;
@@ -531,8 +568,8 @@ h3>i.social-buttons {
     z-index: 100;
     position: absolute;
     left: 0;
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    /* height: 80px; */
     margin-left: 0;
     border: 7px solid #f1f1f1;
     border-radius: 100%;
@@ -596,17 +633,15 @@ h3>i.social-buttons {
     }
 
     .timeline>li .timeline-panel {
-        float: left;
+        float: right;
         width: 41%;
         padding: 0 20px 20px 30px;
-        text-align: right;
+        text-align: left;
     }
 
-    .timeline>li .timeline-image {
-        left: 50%;
-        width: 100px;
-        height: 100px;
-        margin-left: -50px;
+    .timeline > li .timeline-image {
+        left: 20%;
+        width: 200px;
     }
 
     .timeline>li .timeline-image h4 {
@@ -632,8 +667,8 @@ h3>i.social-buttons {
     }
 
     .timeline>li .timeline-image {
-        width: 150px;
-        height: 150px;
+        width: 20vh;
+        height: auto;
         margin-left: -75px;
     }
 
@@ -658,8 +693,8 @@ h3>i.social-buttons {
     }
 
     .timeline>li .timeline-image {
-        width: 170px;
-        height: 170px;
+        width: 20vh;
+        height: auto;
         margin-left: -85px;
     }
 
