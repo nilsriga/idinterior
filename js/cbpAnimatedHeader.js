@@ -34,7 +34,6 @@ var cbpAnimatedHeader = (function() {
 		else {
 			classie.remove( header, 'navbar-shrink' );
 			$( ".page-scroll.shadowed" ).css( "text-shadow", "text-shadow: 1px 0px 5rem rgb(0, 0, 0), 1px 0px 2rem rgb(0, 0, 0);" )
-			console.log("asdf")
 		}
 		didScroll = false;
 	}

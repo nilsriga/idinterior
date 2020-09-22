@@ -10,6 +10,8 @@
     .timeline > li .timeline-image {
         position: relative!important;
         margin: auto!important;
+        left: -15px;
+        top: -35px;
     }
 }
 
@@ -382,7 +384,9 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
+    padding-bottom: 50px;
+
 }
 
 section h2.section-heading {
@@ -420,7 +424,8 @@ h3>i.social-buttons {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 50px 0;
+        padding-bottom: 50px;
     }
 }
 
