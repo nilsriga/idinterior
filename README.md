@@ -10,5 +10,3 @@ JEKYLL_ENV=production jekyll build --trace
 
 and for development run 
 bundler exec jekyll serve
-
-
