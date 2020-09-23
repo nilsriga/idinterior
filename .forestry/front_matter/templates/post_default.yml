@@ -35,3 +35,5 @@ fields:
 - type: textarea
   name: description
   label: description
+pages:
+- _posts/advokatu-birojs.md
