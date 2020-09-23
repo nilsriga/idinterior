@@ -1,0 +1,37 @@
+---
+label: post_default
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: modal-id
+  label: modal-id
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: imgFolder
+  label: imgFolder
+- type: text
+  name: alt
+  label: alt
+- type: text
+  name: project-date
+  label: project-date
+- type: text
+  name: client
+  label: client
+- type: list
+  name: category
+  label: category
+- type: textarea
+  name: description
+  label: description
