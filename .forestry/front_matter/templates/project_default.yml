@@ -39,5 +39,5 @@ fields:
   name: description
   label: description
 pages:
-- _posts/2020-09-01-zobarstnieciba-copy.md
 - _posts/2020-09-21-zobarstnieciba.md
+- _posts/advokatu-birojs.md
