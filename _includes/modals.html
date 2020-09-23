@@ -21,14 +21,16 @@
                         </div> -->
                         
                         <ul class="image-gallery">
-                            <a class="lightbox-image" href="img/{{ post.mainimg }}">
-                                <img src="img/{{ post.mainimg }}" class="img-responsive img-centered"
+                            <a class="lightbox-image" href="img/posts/{{post.folder}}/{{ post.imgFolder }}main.jpg">
+                                <img src="img/posts/{{post.folder}}/{{ post.imgFolder }}main.jpg" class="img-responsive img-centered"
                                     alt="{{ post.alt }}">
                             </a>
 
                             {% for image in post.img %}
 
-                            {% include image-gallery.html fileName=image %}
+                            <!-- {% include image-gallery-file.html fileName=image %} -->
+
+                            {% include image-gallery-folder.html folder="/img" %}
 
                             {% endfor %}
 

@@ -4,9 +4,7 @@ subtitle: Interjers
 layout: default
 modal-id: ''
 date: 2020-09-01 00:00:00 +0300
-img: [header-bg.jpg,map-image.png]
-mainimg: contact/ilze.jpg
-thumbnail: header-bg.jpg
+imgFolder: zobarstnieciba
 alt: ''
 project-date: ''
 client: ''
