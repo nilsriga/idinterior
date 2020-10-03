@@ -21,20 +21,16 @@
                         </div> -->
                         
                         <ul class="image-gallery">
-                            <a class="lightbox-image" href="img/{{ post.mainimg }}">
-                                <img src="img/{{ post.mainimg }}" class="img-responsive img-centered"
+                            <a class="lightbox-image" href="img/posts/{{post.imgFolder}}/main.jpg">
+                                <img src="img/posts/{{post.imgFolder}}/main.jpg" class="img-responsive img-centered"
                                     alt="{{ post.alt }}">
                             </a>
 
-                            {% for image in post.img %}
-
-                            {% include image-gallery.html fileName=image %}
-
-                            {% endfor %}
+                            {% include image-gallery.html folder=post.imgFolder %}
 
                         </ul>
 
-                        <p>{{ post.description }}</p>
+                        <!-- <p>{{ post.description }}</p> -->
 
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
                             Aizvērt</button>
