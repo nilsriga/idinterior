@@ -1,5 +1,5 @@
 ---
-label: Project_default
+label: post_default
 hide_body: true
 fields:
 - type: text
@@ -18,11 +18,8 @@ fields:
   name: date
   label: date
 - type: text
-  name: img
-  label: img
-- type: text
-  name: thumbnail
-  label: thumbnail
+  name: imgFolder
+  label: imgFolder
 - type: text
   name: alt
   label: alt
@@ -39,5 +36,4 @@ fields:
   name: description
   label: description
 pages:
-- _posts/2020-09-01-zobarstnieciba-copy.md
-- _posts/2020-09-21-zobarstnieciba.md
+- _posts/2020-09-22-advokatu-birojs.md
