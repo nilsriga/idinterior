@@ -4,6 +4,13 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ #lightbox #prev, #lightbox #next {
+    padding: 100px!important;
+ }
+
+.portfolio-grid-image {
+    width: 100%;
+}
 
 
 @media(max-width: 748px) {
@@ -296,9 +303,9 @@ fieldset[disabled] .btn-xl.active {
         padding: 30vh 0;
         border: 0;
         background-color: transparent;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
+        -webkit-transition: padding 0.5s;
+        -moz-transition: padding 0.5s;
+        transition: padding 0.5s;
         display: block;
         position:fixed;
     }
@@ -329,12 +336,16 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
-    background-position: center center;
+    /* background-position: center center; */
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header .intro-text {
@@ -444,7 +455,7 @@ h3>i.social-buttons {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    width: 100%;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -485,8 +496,9 @@ h3>i.social-buttons {
 
 #portfolio .portfolio-item .portfolio-caption {
     margin: 0 auto;
-    padding: 25px;
-    max-width: 400px;
+    padding: 15px;
+    padding-top: 25px;
+    width: 100%;
     text-align: center;
     background-color: #fff;
 }
@@ -509,7 +521,7 @@ h3>i.social-buttons {
 
 @media(min-width:767px) {
     #portfolio .portfolio-item {
-        margin: 0 0 30px;
+        /* margin: 0 0 0px; */
     }
 }
 
@@ -533,7 +545,7 @@ h3>i.social-buttons {
 
 .timeline>li {
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     min-height: 50px;
 }
 
@@ -645,8 +657,8 @@ h3>i.social-buttons {
     }
 
     .timeline > li .timeline-image {
-        left: 16%;
-        width: 200px;
+        /* left: 16%; */
+        width: 300px;
     }
 
     .timeline>li .timeline-image h4 {
@@ -672,9 +684,9 @@ h3>i.social-buttons {
     }
 
     .timeline>li .timeline-image {
-        width: 20vh;
+        width: 300px;
         height: auto;
-        margin-left: -75px;
+        /* margin-left: -75px; */
     }
 
     .timeline>li .timeline-image h4 {
@@ -698,9 +710,9 @@ h3>i.social-buttons {
     }
 
     .timeline>li .timeline-image {
-        width: 20vh;
+        width: 300px;
         height: auto;
-        margin-left: -85px;
+        /* margin-left: -85px; */
     }
 
     .timeline>li .timeline-image h4 {
