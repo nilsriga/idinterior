@@ -5,18 +5,31 @@
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
 
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ "/sitemap.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+    <!-- <meta property="og:site_name" content="ID Interior">
+    <meta property="og:url" content="https://idinterior.lv">
+    <meta property="og:title" content="Interjera un Arhitektūras Pakalpojumi" />
+    <meta property="og:description" content="Ilze Desaine" /> -->
+    <meta property="og:image" itemprop="image" content="{{ "/img/idinterior-logo-full.png" | prepend: site.url }}">
+    <!-- <meta property="og:type" content="website" /> -->
+    
 
 
-    <link rel="shortcut icon" href="{{ "/img/favicons/favicon.ico" | prepend: site.baseurl | prepend: site.url }}" />
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/img/facicons/apple-touch-icon.png | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ "/img/facicons/favicon-32x32.png | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ "/img/facicons/favicon-16x16.png | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="manifest" href="{{ "/img/facicons/site.webmanifest | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ "/sitemap.xml"" | prepend: site.url }}" />
+
+
+    <link rel="shortcut icon" href="{{ "/img/favicons/favicon.ico"" | prepend: site.url }}" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/img/favicons/apple-touch-icon.png" | prepend: site.url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "/img/favicons/favicon-32x32.png" | prepend: site.url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "/img/favicons/favicon-16x16.png" | prepend: site.url }}">
+    <link rel="manifest" href="{{ "/img/favicons/site.webmanifest" | prepend: site.url }}">
 
 
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+
+
+    <link rel="canonical" href="{{ "page.url | replace:'index.html',''" | prepend: site.url }}">
 
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
